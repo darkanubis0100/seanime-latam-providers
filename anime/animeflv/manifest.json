@@ -1,14 +1,14 @@
 {
   "id": "animeflv-latam",
   "name": "AnimeFLV (LATAM)",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "manifestURI": "https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/anime/animeflv/manifest.json",
   "language": "typescript",
   "type": "onlinestream-provider",
-  "description": "Proveedor de AnimeFLV para Seanime con resolución de streams y timeouts controlados.",
+  "description": "Proveedor de AnimeFLV para Seanime con resolución automática de mirrors.",
   "author": "darkanubis0100",
   "icon": "https://www4.animeflv.net/favicon.ico",
   "website": "https://www4.animeflv.net",
   "lang": "es",
-  "payloadURI": "https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/anime/animeflv/provider-v2.ts?v=0.2.0"
+  "payloadURI": "https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/anime/animeflv/provider-v3.ts?v=0.2.1"
 }
