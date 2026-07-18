@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/anime/animeflv/manifest.json
+https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/anime/jkanime/manifest.json
+https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/manga/manhwaweb/manifest.json

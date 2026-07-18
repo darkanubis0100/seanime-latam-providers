@@ -1,0 +1,14 @@
+{
+  "id": "animeflv-latam",
+  "name": "AnimeFLV (LATAM)",
+  "version": "0.1.0",
+  "manifestURI": "https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/anime/animeflv/manifest.json",
+  "language": "typescript",
+  "type": "onlinestream-provider",
+  "description": "Proveedor de AnimeFLV para Seanime, portado desde la lógica de Yuzono/Aniyomi.",
+  "author": "darkanubis0100",
+  "icon": "https://www4.animeflv.net/favicon.ico",
+  "website": "https://www4.animeflv.net",
+  "lang": "es",
+  "payloadURI": "https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/anime/animeflv/provider.ts"
+}

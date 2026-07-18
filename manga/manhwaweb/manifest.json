@@ -1,0 +1,14 @@
+{
+  "id": "manhwaweb-latam",
+  "name": "ManhwaWeb (LATAM)",
+  "version": "0.1.0",
+  "manifestURI": "https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/manga/manhwaweb/manifest.json",
+  "language": "typescript",
+  "type": "manga-provider",
+  "description": "Proveedor de ManhwaWeb para Seanime.",
+  "author": "darkanubis0100",
+  "icon": "https://manhwaweb.com/favicon.ico",
+  "website": "https://manhwaweb.com",
+  "lang": "es",
+  "payloadURI": "https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/manga/manhwaweb/provider.ts"
+}

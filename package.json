@@ -1,0 +1,11 @@
+{
+  "name": "seanime-latam-providers",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "check": "bash ./scripts/check.sh"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
