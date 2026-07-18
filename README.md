@@ -7,11 +7,11 @@ Proveedores comunitarios en español para [Seanime](https://github.com/5rahim/se
 
 ## Proveedores disponibles
 
-| Proveedor | Tipo | Idioma | Estado |
-| --- | --- | --- | --- |
-| AnimeFLV | Anime en línea | Español | Beta |
-| JKAnime | Anime en línea | Español / Latino | Beta |
-| ManhwaWeb | Manga y manhwa | Español | Beta |
+| Proveedor | Tipo | Idioma | Versión | Estado |
+| --- | --- | --- | --- | --- |
+| AnimeFLV | Anime en línea | Español | 0.2.0 | Beta |
+| JKAnime | Anime en línea | Español / Latino | 0.2.0 | Beta |
+| ManhwaWeb | Manga y manhwa | Español | 0.1.0 | Beta |
 
 ## Instalación
 
@@ -37,22 +37,36 @@ https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/ma
 
 Cada proveedor es independiente; puedes instalar solamente los que vayas a utilizar.
 
+## Actualizar una instalación existente
+
+Cuando cambie la versión del manifest, elimina y vuelve a agregar la extensión. Después limpia su caché o reinicia Seanime para evitar que quede cargado el payload anterior.
+
 ## Estructura
 
 ```text
 anime/
 ├── animeflv/
 │   ├── manifest.json
-│   └── provider.ts
+│   ├── provider-v2.ts   # payload activo
+│   └── provider.ts      # primera beta / referencia
 └── jkanime/
     ├── manifest.json
-    └── provider.ts
+    ├── provider-v2.ts   # payload activo
+    └── provider.ts      # primera beta / referencia
 
 manga/
 └── manhwaweb/
     ├── manifest.json
     └── provider.ts
 ```
+
+## Cambios de la versión 0.2.0
+
+- Timeouts explícitos para evitar que **Loading stream** quede girando indefinidamente.
+- Mirrors sencillos y directos antes que reproductores fuertemente ofuscados.
+- Headers separados para páginas HTML y archivos de vídeo.
+- Decodificador Base64 propio para la lista de servidores de JKAnime.
+- Mensajes de error y logs por mirror para facilitar el diagnóstico.
 
 ## Desarrollo
 
@@ -65,7 +79,7 @@ npm run check
 
 ## Estado del proyecto
 
-Los proveedores están en fase beta. La búsqueda, los episodios, los capítulos y las páginas fueron portados; los reproductores externos pueden cambiar sus protecciones o dominios y requerir ajustes posteriores.
+Los proveedores están en fase beta. Las webs y sus reproductores externos pueden cambiar sus protecciones, dominios o estructura y requerir ajustes posteriores.
 
 ## Créditos
 

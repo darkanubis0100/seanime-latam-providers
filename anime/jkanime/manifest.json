@@ -1,14 +1,14 @@
 {
   "id": "jkanime-latam",
   "name": "JKAnime (LATAM)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "manifestURI": "https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/anime/jkanime/manifest.json",
   "language": "typescript",
   "type": "onlinestream-provider",
-  "description": "Proveedor de JKanime para Seanime, portado desde la lógica de Yuzono/Aniyomi.",
+  "description": "Proveedor de JKAnime para Seanime con resolución de streams y timeouts controlados.",
   "author": "darkanubis0100",
   "icon": "https://jkanime.net/favicon.ico",
   "website": "https://jkanime.net",
   "lang": "es",
-  "payloadURI": "https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/anime/jkanime/provider.ts"
+  "payloadURI": "https://raw.githubusercontent.com/darkanubis0100/seanime-latam-providers/main/anime/jkanime/provider-v2.ts?v=0.2.0"
 }
